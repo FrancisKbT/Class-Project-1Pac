@@ -7,7 +7,7 @@ namespace ClassProject1.Ejercicios
 {
     public class Ejercicio01
     {
-        //Conversor de moneda - Solicitar un monto en lempiras y la tasa de cambio del día. Convertir elmonto a dólares y a euros, mostrando los resultados con dos decimales.
+        //Conversor de moneda - Solicitar un monto en lempiras y la tasa de cambD}")io del día. Convertir elmonto a dólares y a euros, mostrando los resultados con dos decimales.
         //El ejercicio esta en el apartado de variables y operadores, entonces no considero un ciclo for para la repeticion del programa
 
         public void Conversor()
@@ -23,8 +23,6 @@ namespace ClassProject1.Ejercicios
 
             Console.WriteLine($"{Lempiras}, son ${Lempiras*Euro} Euros");
             Console.WriteLine($"{Lempiras}, son ${Lempiras*Dollar} Dolares");
-
-
         }
     }
 }
