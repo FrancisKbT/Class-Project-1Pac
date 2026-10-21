@@ -28,41 +28,43 @@ namespace ClassProject1.Ejercicios
                 case 1: 
                 Console.WriteLine("Introduzca la cantidad de grados Celsius:");
                 decimal Celsius = decimal.TryParse(Console.ReadLine(), out decimal no) ? no: 0;
-                Console.WriteLine($"{Celsius} grados Celsius son {(Celsius*(9/5))+32m} Grados Fahrenheit");
+                Console.WriteLine($"{Celsius} grados Celsius son {(Celsius*(9m/5m))+32m} Grados Fahrenheit");
                 break;
+
                 case 2:
                 Console.WriteLine("Introduzca la cantidad de grados Celsius:");
                 decimal Celsius2 = decimal.TryParse(Console.ReadLine(), out  no) ? no: 0;
-                Console.WriteLine($"{Celsius2} grados Celsius son {(Celsius2+273.15m)}");  
+                Console.WriteLine($"{Celsius2} grados Celsius son {(Celsius2+273.15m)} grados Kelvin");  
                 break;
+
                 case 3:
                 Console.WriteLine("Introduzca la cantidad de grados Fahrenheit:");
                 decimal Fahrenheit = decimal.TryParse(Console.ReadLine(), out  no) ? no: 0;
-                Console.WriteLine($"{Fahrenheit} grados Fahrenheit son {(Fahrenheit-32)*(9/5)} grados Celsius");  
-                break;       
+                Console.WriteLine($"{Fahrenheit} grados Fahrenheit son {(Fahrenheit-32m)*(5m/9m)} grados Celsius");  
+                break; 
+
                 case 4:
                 Console.WriteLine("Introduzca la cantidad de grados Fahrenheit:");
                 decimal Fahrenheit2 = decimal.TryParse(Console.ReadLine(), out  no) ? no: 0;
-                Console.WriteLine($"{Fahrenheit2} grados Fahrenheit son {((Fahrenheit2-32)*(9/5))+273.15m} grados Kelvin");  
-                break;   
+                Console.WriteLine($"{Fahrenheit2} grados Fahrenheit son {((Fahrenheit2-32m)*(5m/9m))+273.15m} grados Kelvin");  
+                break;
+
                 case 5:
                 Console.WriteLine("Introduzca la cantidad de grados Kelvin:");
                 decimal Kelvin = decimal.TryParse(Console.ReadLine(), out  no) ? no: 0;
                 Console.WriteLine($"{Kelvin} grados Kelvin son {Kelvin-273.15m} grados Celsius");  
-                break;   
+                break;  
+
                 case 6:
                 Console.WriteLine("Introduzca la cantidad de grados Kelvin:");
                 decimal Kelvin2 = decimal.TryParse(Console.ReadLine(), out  no) ? no: 0;
-                Console.WriteLine($"{Kelvin2} grados Kelvin son {(Kelvin2-273.15m*(9/5))+32m} grados Celsius");  
-                break;    
-                      
-                      
-                 }
+                Console.WriteLine($"{Kelvin2} grados Kelvin son {(((Kelvin2 - 273.15m) * (9m / 5m)) + 32m)} grados Fahrenheit");  
+                break;  
 
-
-
-
+                default:
+                Console.WriteLine("Opcion invalida");
+                break;      
+            }
         }
-
     }
 }
