@@ -10,6 +10,7 @@ namespace ClassProject1.Ejercicios
 // Tarifa de estacionamiento - Calcular el pago según las horas estacionado: la primera hora
 // cuesta L20, cada hora adicional L10, con un tope máximo de L100 por día. Validar que las horas
 // sean positivas.
+// No considero algun limite porque el ejercicio no lo menciona
 
         public void Tarifa()
         {
