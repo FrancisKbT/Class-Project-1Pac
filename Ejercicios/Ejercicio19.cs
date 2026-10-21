@@ -25,7 +25,7 @@ namespace ClassProject1.Ejercicios
                 {
                     if(Lado1==Lado2 && Lado3 == Lado1)
                     {
-                        Console.WriteLine($"El triangulo con dos iguales {Lado1} es equilatero");
+                        Console.WriteLine($"El triangulo con tres lados iguales {Lado1} es equilatero");
                     }
                     else if(Lado1==Lado2 || Lado2==Lado3 || Lado3 == Lado1)
                     {
@@ -41,7 +41,7 @@ namespace ClassProject1.Ejercicios
                     {
                         Console.WriteLine($"El triangulo que introdujo es un triangulo Rectángulo");
                     }
-                    else if ((Lado3*Lado3)< (Lado2 * Lado2) + (Lado1 * Lado1) || (Lado2*Lado2)< (Lado3 * Lado3) + (Lado1 * Lado1) || (Lado2*Lado2)< (Lado3* Lado3) + (Lado1 * Lado1))
+                    else if ((Lado3*Lado3)< (Lado2 * Lado2) + (Lado1 * Lado1) && (Lado2*Lado2)< (Lado3 * Lado3) + (Lado1 * Lado1) && (Lado1*Lado1)< (Lado2* Lado2) + (Lado3 * Lado3))
                     {
                         Console.WriteLine($"El triangulo que introdujo es un triangulo Acutángulo");
                     }
@@ -50,16 +50,10 @@ namespace ClassProject1.Ejercicios
                         Console.WriteLine($"El triangulo que introdujo es un triangulo Obtusángulo");
 
                     }
-
                 }
                 else Console.WriteLine("Los datos introducidos son invalidos");
-
-
             }
             else Console.WriteLine("Los datos introducidos son invalidos");
-
-            
         }
-
     }
 }
