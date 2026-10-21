@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ClassProject1.Ejercicios
 {
-    public class ejercicio16
+    public class Ejercicio16
     {
         public void NotasUNAH()
         {
