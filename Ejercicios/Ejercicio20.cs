@@ -53,11 +53,6 @@ namespace ClassProject1.Ejercicios
                     Console.WriteLine($"El mes {mes} tiene 31 dias");
                 }
             }  
-
-            
-
-
-
         }
     }
 }
