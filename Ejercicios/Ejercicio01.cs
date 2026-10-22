@@ -18,11 +18,11 @@ namespace ClassProject1.Ejercicios
 
             Console.WriteLine("Introduzca el valor del dolar");
             int Dollar= int.TryParse(Console.ReadLine(), out nro) ? nro: 0;
-            Console.WriteLine("Introduzca el valor del dolar");
+            Console.WriteLine("Introduzca el valor del euro");
             int Euro= int.TryParse(Console.ReadLine(), out nro) ? nro: 0;
 
-            Console.WriteLine($"{Lempiras}, son ${Lempiras*Euro} Euros");
-            Console.WriteLine($"{Lempiras}, son ${Lempiras*Dollar} Dolares");
+            Console.WriteLine($"{Lempiras}, son ${(double)Lempiras/Euro} Euros");
+            Console.WriteLine($"{Lempiras}, son ${(double)Lempiras/Dollar} Dolares");
         }
     }
 }

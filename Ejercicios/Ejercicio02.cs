@@ -20,27 +20,27 @@ namespace ClassProject1.Ejercicios
             decimal IMC = Peso/(Altura*Altura);
             if(IMC > 0 && IMC < 18.5m)
             {
-                Console.WriteLine($"Su Imc es de {IMC}, entra en la categoria de bajo peso");
+                Console.WriteLine($"Su Imc es de {(double)IMC}, entra en la categoria de bajo peso");
             }
             else if(IMC >= 18.5m && IMC <= 14.99m)
             {
-                Console.WriteLine($"Su Imc es de {IMC}, entra en la categoria de Peso Normal");
+                Console.WriteLine($"Su Imc es de {(double)IMC}, entra en la categoria de Peso Normal");
             }
            else if(IMC >= 25 && IMC <= 29.99m)
             {
-                Console.WriteLine($"Su Imc es de {IMC}, entra en la categoria de Sobre Peso");
+                Console.WriteLine($"Su Imc es de {(double)IMC}, entra en la categoria de Sobre Peso");
             }     
            else if(IMC >= 30 && IMC <= 34.99m)
             {
-                Console.WriteLine($"Su Imc es de {IMC}, entra en la categoria de Obesidad Grado 1");
+                Console.WriteLine($"Su Imc es de {(double)IMC}, entra en la categoria de Obesidad Grado 1");
             }         
            else if(IMC >= 35 && IMC <= 39.99m)
             {
-                Console.WriteLine($"Su Imc es de {IMC}, entra en la categoria de Obesidad Grado 2");
+                Console.WriteLine($"Su Imc es de {(double)IMC}, entra en la categoria de Obesidad Grado 2");
             }      
            else if(IMC > 40)
             {
-                Console.WriteLine($"Su Imc es de {IMC}, entra en la categoria de Obesidad Grado 3");
+                Console.WriteLine($"Su Imc es de {(double)IMC}, entra en la categoria de Obesidad Grado 3");
             }
             else
             {

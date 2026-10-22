@@ -1,0 +1,15 @@
+/home/francis/projects/ClassProject1/bin/Debug/net10.0/ClassProject1
+/home/francis/projects/ClassProject1/bin/Debug/net10.0/ClassProject1.deps.json
+/home/francis/projects/ClassProject1/bin/Debug/net10.0/ClassProject1.runtimeconfig.json
+/home/francis/projects/ClassProject1/bin/Debug/net10.0/ClassProject1.dll
+/home/francis/projects/ClassProject1/bin/Debug/net10.0/ClassProject1.pdb
+/home/francis/projects/ClassProject1/obj/Debug/net10.0/ClassProject1.GeneratedMSBuildEditorConfig.editorconfig
+/home/francis/projects/ClassProject1/obj/Debug/net10.0/ClassProject1.AssemblyInfoInputs.cache
+/home/francis/projects/ClassProject1/obj/Debug/net10.0/ClassProject1.AssemblyInfo.cs
+/home/francis/projects/ClassProject1/obj/Debug/net10.0/ClassProject1.csproj.CoreCompileInputs.cache
+/home/francis/projects/ClassProject1/obj/Debug/net10.0/ClassProject1.sourcelink.json
+/home/francis/projects/ClassProject1/obj/Debug/net10.0/ClassProject1.dll
+/home/francis/projects/ClassProject1/obj/Debug/net10.0/refint/ClassProject1.dll
+/home/francis/projects/ClassProject1/obj/Debug/net10.0/ClassProject1.pdb
+/home/francis/projects/ClassProject1/obj/Debug/net10.0/ClassProject1.genruntimeconfig.cache
+/home/francis/projects/ClassProject1/obj/Debug/net10.0/ref/ClassProject1.dll
