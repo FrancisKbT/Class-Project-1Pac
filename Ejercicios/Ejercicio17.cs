@@ -18,6 +18,7 @@ namespace ClassProject1.Ejercicios
             if (Precio <= 0)
             {
                 Console.WriteLine("El precio que introdujo es invalido");
+                return;
             }
             else if (Precio >= 2500)
             {
@@ -31,7 +32,7 @@ namespace ClassProject1.Ejercicios
             {
                 Descuento=0.05;
             }
-            else if(Precio<500)
+            else
             {
                 Descuento = 0;
             }

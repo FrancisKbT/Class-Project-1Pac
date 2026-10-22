@@ -15,10 +15,13 @@ namespace ClassProject1.Ejercicios
             Console.WriteLine("Clasificacion de triangulos por lados y angulos");
             Console.WriteLine("Ingrese el primer lado:");
             double Lado1 = double.TryParse(Console.ReadLine(), out double nro) ? nro : 0;
+
             Console.WriteLine("Ingrese el segundo lado:");
             double Lado2 = double.TryParse(Console.ReadLine(), out nro) ? nro : 0;
+            
             Console.WriteLine("Ingrese el tercer lado:");
             double Lado3 = double.TryParse(Console.ReadLine(), out nro) ? nro : 0;
+            
             if( Lado3>0 && Lado2>0 && Lado1 > 0)
             {
                 if((Lado1+Lado2)>Lado3 && (Lado1+Lado3)>Lado2 && (Lado2 + Lado3) > Lado1)
